@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- BStrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+
+<nav class="navbar navbar-dark bg-dark ">
+    <div class="container">
+        <a href="index.php" class="navbar-brand"> Deavei Automotores</a>
+    </div>
+</nav>
