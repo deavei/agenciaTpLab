@@ -8,9 +8,12 @@
     <!-- BStrap -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
 </head>
-
+<div>
 <nav class="navbar navbar-dark bg-dark ">
     <div class="container">
         <a href="index.php" class="navbar-brand"> Deavei Automotores</a>
     </div>
 </nav>
+</div>
+<body>
+    
