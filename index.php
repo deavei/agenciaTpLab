@@ -5,8 +5,7 @@ include ('./includes/cabecera.php');
 
 ?>
 
-
-<div class="container p-4" >
+<div class="container p-4 bg-secondary" >
 <?php if(isset($_SESSION['mensaje'])){ 
     
     ?>
@@ -19,10 +18,10 @@ include ('./includes/cabecera.php');
 }
 ?>
     <div class="row">
-        
+
         <div>
         
-            <div class="card card-body">
+            <div class="card card-body bg-dark">
                 <form action="acciones.php" method="POST">
                 <div class="form-group">
                     <input type="submit" class="btn btn-info btn-block" name="comprar" value="Comprar">
@@ -40,6 +39,12 @@ include ('./includes/cabecera.php');
             </div>
 
         </div>
+
+        <div class="text-center p-2 bg-dark">
+            <img src="./img/agencia.jpg" class="rounded" alt="IMG">
+        </div>
+
+
     </div>
 </div>
 

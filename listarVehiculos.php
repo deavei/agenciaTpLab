@@ -1,4 +1,4 @@
-
+<div class="container bg-light">
 <div class="col-md-10">
     <table class="table table-bordered">
         <thead>
@@ -41,6 +41,8 @@
 
     </table>
 </div>
+
+</div> <!-- Container -->
 
 <?php 
     include('./includes/footer.php');

@@ -1,5 +1,9 @@
-        
-    <div class="col-md-10">
+<div class="container ">
+<div class="col-md-2">
+    <a href="./acciones.php?id=0000" class="btn btn-success btn-block">Nuevo</a>
+</div>
+            
+    <div class="col-md-10 bg-light">
         <table class="table table-bordered">
         <thead>
         <tr>
@@ -29,4 +33,8 @@
                 } ?>
         </tbody>
         </table>
+
+    </div>
+    
+
     </div>

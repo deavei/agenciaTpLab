@@ -51,8 +51,11 @@ include('db.php');
     if(isset($_GET['id'])){
         $id = $_GET['id'];
         //Por ahora se elimina el vehiculo, que seria la idea... y luego asignarselo a un id de usuario.
+        if($id == '0000') header('Location: clientes.php');
         $query = "DELETE FROM autos WHERE id = $id";
         mysqli_query($conexion, $query);
+
+        header('Location: index.php');
 
     }
 

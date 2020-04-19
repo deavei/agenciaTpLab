@@ -7,7 +7,7 @@ while(true){
     $asiento = mysqli_fetch_array($autos);
     if(!$asiento)break;
 ?>
-<div class="container">
+<div class="container bg-secondary">
 <div class="row">
 
     <div class="col-sm">
